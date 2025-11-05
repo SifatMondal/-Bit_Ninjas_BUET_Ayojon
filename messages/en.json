@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "search": "Search",
+    "categories": "Categories",
+    "howItWorks": "How It Works",
+    "listBusiness": "List Your Business",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "myAccount": "My Account",
+    "dashboard": "Dashboard",
+    "bookings": "Bookings",
+    "messages": "Messages"
+  },
+  "footer": {
+    "tagline": "Your trusted platform for discovering and booking event services across Bangladesh",
+    "forCustomers": "For Customers",
+    "findServices": "Find Services",
+    "howItWorks": "How It Works",
+    "categories": "Categories",
+    "faq": "FAQ",
+    "forBusinesses": "For Businesses",
+    "listYourBusiness": "List Your Business",
+    "benefits": "Benefits",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "company": "Company",
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "title": "Find Perfect Event Services in Bangladesh",
+      "subtitle": "Search for photographers, caterers, makeup artists, decorators, and more using natural language",
+      "placeholder": "Try: \"Wedding photographer in Dhaka under 50,000 BDT\"",
+      "searchButton": "Search"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Search & Discover",
+        "description": "Use natural language to find services that match your needs"
+      },
+      "step2": {
+        "title": "Compare & Choose",
+        "description": "Review profiles, ratings, and pricing to make an informed decision"
+      },
+      "step3": {
+        "title": "Book & Pay",
+        "description": "Request quotes, confirm bookings, and pay securely through our platform"
+      },
+      "step4": {
+        "title": "Review & Share",
+        "description": "Share your experience and help others make better choices"
+      }
+    },
+    "categories": {
+      "title": "Popular Categories",
+      "viewAll": "View All Categories"
+    },
+    "cta": {
+      "business": {
+        "title": "Are you a service provider?",
+        "description": "Join Ayojon to reach thousands of customers looking for your services",
+        "button": "List Your Business"
+      }
+    }
+  }
+}
