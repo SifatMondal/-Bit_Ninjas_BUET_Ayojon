@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+  --muted: 214.3 31.8% 91.4%;
+  --muted-foreground: 215.3 19.3% 34.5%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 47.4% 11.2%;
+  --border: 215.3 31.8% 85.9%;
+  --input: 214.3 31.8% 91.4%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+  --primary: 197 96% 32%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 211 40% 96%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --accent: 210 40% 96%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 72.2% 50.6%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 197 96% 32%;
+  --chart-1: 197 96% 32%;
+  --chart-2: 149 70% 45%;
+  --chart-3: 30 85% 55%;
+  --chart-4: 280 70% 60%;
+  --chart-5: 340 82% 52%;
+  --radius: 0.75rem;
+  --font-sans: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Playfair Display", "Times New Roman", serif;
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 96%;
+  --muted: 217.2 32.6% 11.3%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --popover: 222.2 84% 4.9%;
+  --popover-foreground: 210 40% 98%;
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --card: 222.2 84% 4.9%;
+  --card-foreground: 210 40% 98%;
+  --primary: 197 96% 44%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 72.2% 60.6%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 197 96% 44%;
+  --chart-1: 197 96% 44%;
+  --chart-2: 159 64% 45%;
+  --chart-3: 29 82% 55%;
+  --chart-4: 282 66% 61%;
+  --chart-5: 341 75% 54%;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+::selection {
+  @apply bg-primary/80 text-primary-foreground;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply min-h-screen bg-background font-sans text-base text-foreground antialiased;
+  }
+}

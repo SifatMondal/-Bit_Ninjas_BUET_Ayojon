@@ -1,0 +1,6 @@
+.next
+node_modules
+dist
+pnpm-lock.yaml
+public/sw.js
+.turbo
